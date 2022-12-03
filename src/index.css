@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+  text-decoration: none;
+}
+.img.small{
+  max-height: 8rem;
+  width: 100%;
+}
+.card{
+  background-color: rgb(243, 231, 127);
+  padding: 1rem;
+  margin: .5rem;
+}
+button{
+  padding: .3rem;
+  border: .1rem,rgb(0, 255, 98);
+  background-color: rgb(111, 220, 87);
+  width: 80%;
+  cursor: pointer;
+}
+button.badge{
+background-color: rgb(230, 62, 62);
+border: none;
+color: antiquewhite;
+width: 1.5rem;
+}
+button.add{
+  background-color: aqua;
+  width: 1.5rem;
+
+}
+button.remove{
+  background-color: rgb(228, 54, 54);
+  width: 1.5rem;
+}
+.p-1{
+  padding: 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.row.center{
+align-items: center;
+}
+.col-1{
+  flex-basis: 100%;
+}
+.col-2{
+  flex-basis: 100%;
+  
+}
+@media screen and (min-width:800px) {
+  .col-1{
+    flex:1;
+  }
+  .col-2{
+    flex:3;
+  }
+}
+
+
+.block{
+  background-color: aqua;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.text-right{
+  text-align: right;
+}
